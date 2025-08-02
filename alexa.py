@@ -269,3 +269,4 @@ def listen_vosk():
 # Start assistant
 
 listen_vosk()
+
