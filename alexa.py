@@ -43,7 +43,7 @@ def talk(text):
 
 # Weather using OpenWeatherMap API
 def get_weather(city):
-    api_key = 'eb5432b5400c8b1ae7c28a791df8b0f0'  # Replace with your API key
+    api_key = 'Create Your own API key'  # Replace with your API key
     url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric'
     try:
         response = requests.get(url).json()
@@ -267,4 +267,5 @@ def listen_vosk():
                 print("Didn't catch that:", e)
 
 # Start assistant
+
 listen_vosk()
